@@ -1,5 +1,5 @@
 /*
- * Copyright � 2014 Google
+ * Copyright © 2014 Google
 */
 var cubeletsUnused = new ERNO.Group();
 var certName, certSolved, certMovesNumber, certMovesHeader, certDate,
@@ -103,7 +103,7 @@ var dataStore = {
             'configuration and the latest version of one of these browsers:',
         'Mobile Certificate Cube': 'Cube',
         'Mobile Certificate Solved': 'Solved',
-        'Share Message': 'The Rubik’s Cube is 40! #CubeDoodle',
+        'Share Message': 'The Rubikâ€™s Cube is 40! #CubeDoodle',
         'Share Message Completed': '#CubeDoodle solved!!',
         'Sign In Button': 'Sign in',
         'Sign In Message': 'Sign in to add your name'
@@ -216,7 +216,7 @@ function setupTextBoxes() {
         new TextBox(cubeObject, 'certTimeNumber', timeMin + ':' + timeSec);
     certTimeHeader = new TextBox(cubeObject, 'certTimeHeader',
         dataStore['msgs']['Certificate Time']);
-    certLarryName = new TextBox(cubeObject, 'certLarryName', 'Lawrence Page');
+    certLarryName = new TextBox(cubeObject, 'certLarryName', 'Jonathan Chua');
     certErnoName = new TextBox(cubeObject, 'certErnoName', 'Erno Rubik');
     googleLogo = new DivBox(cubeObject, 'googleLogo');
     larrySignature = new DivBox(cubeObject, 'larrySignature');
